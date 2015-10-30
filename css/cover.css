@@ -1,0 +1,30 @@
+body{
+font-size: 16px;
+}
+header{
+	text-align: center;
+	border: 1px solid red;
+}
+form{
+		border: 1px solid red;
+}
+figure{
+	display: inline-block;
+		border: 1px solid red;
+		left: 100px;
+
+}
+form input{
+
+	display: block;
+	height: 2em;
+    width: 288px;
+    font-size: 1.1em;
+}
+.boxmain{
+	position: absolute;
+	left: 37%;
+	border: 1px solid red;
+	background: #0f303e;
+
+}

@@ -1,0 +1,152 @@
+body{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	background: #E3D7D7
+}
+
+header{
+	background: #0f303e;/* Old Browsers */
+	background: -webkit-radial-gradient(center, ellipse cover, #0f303e 0%, #06242d 50%, #10303d 100%); /* Chrome10+,Safari5.1+ */
+	/*background: #0C173F;*/
+	position: relative;
+	padding: 0.5em;
+	box-shadow: 0 6px 2px #38D76C;
+	overflow: hidden;
+	border-radius: 0 0 10% 10%;
+}
+a{
+	color: rgba(254,254,254,.7);
+	text-decoration: none;
+}
+a:hover{
+	background: #3155F0;
+	color: rgb(254,254,254);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.titulo{
+
+	/*border: 1px solid green;*/
+
+}
+ h1{
+
+ 	color: #FDF6F8;
+ 	text-align: center;
+ 	margin-top: 1.5em;
+	font-size: 1.1em;
+	max-width: 68%;
+	font-weight: 400;
+	/*text-shadow: 0px 5px .1px #38BBD7;*/
+	/*text-shadow: -11px 13px 0px -1px rgba(0,0,0,1);*/
+
+	/*border: 1px solid green;*/
+}
+.logo{
+	border-right: 2px solid green;
+	float: left;
+	padding: .5em 0 0 .5em;
+	
+}
+.logo img{
+	width: 200px;
+}
+.avatar{
+	position: absolute;
+	text-align: center;
+	/*border: 1px solid green;*/
+	top: 0;
+	right: 0;
+
+}
+.avatar img{
+	width: 60px;
+	border-radius: 50%;
+}
+.nombre{
+	/*border: 1px solid green;*/
+}
+.nombre p{
+	margin: 0;
+	color: rgba(254,254,254,.7);
+}
+.menu1{
+	background: -webkit-linear-gradient(left, #93cede 20%, #75bdd1 30%, #49a5bf 80%); /* Chrome10+,Safari5.1+ */
+	/*background: #2E87F0;*/
+	position: relative;
+
+}
+.menu1ul{
+	text-align: right;
+	margin: .4em 0 0 0;
+}
+.menu1 li{
+	
+	display: inline-block;
+	
+}
+.menu1 a{
+	padding: .5em .5em .5em 0;
+	margin-bottom: 0.3em;
+}
+.menu2{
+
+
+}
+.menu2ul{
+	background: -webkit-linear-gradient(bottom, #93cede 20%, #75bdd1 30%, #49a5bf 80%); /* Chrome10+,Safari5.1+ */
+	/*background: #2E87F0;*/
+	position: absolute;
+	padding: 1em 1em 100% 1em;
+	margin: 0;
+}
+.menu2 li{
+	display: block;
+	text-align: center;
+	padding: .5em 0 .5em 0;
+	margin-bottom: 0.5em;
+	border-bottom: 1px solid #080202;
+}
+.menu2 li:last-child {
+	font-size: .6em;
+	padding-top: 100%;
+}
+.dashboard{
+	/*position: absolute;*/
+	margin: 180px 0 0 110px;
+	border: 1px solid red;
+	background: #E3D7D7;
+	float: left;
+	max-width: auto;
+
+
+}
+.dashboard div{
+
+	background: white;
+	border: 1px solid red;
+	padding: 5em 10em 5em 10em;
+	/*padding: 3em;*/
+
+}
+.section1{
+	display: inline-block;
+	padding: 10em 5em 10em 5em;
+}
+.section2{
+	display: inline-block;
+	padding: 10em 5em 10em 5em;
+
+}
+.section3{
+	margin: 3em;
+	padding: 5em 10em 5em 10em;
+	display: block;
+	
+}
+.general
+{
+	
+	position: fixed;
+	width: 100%;
+}
